@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #424242;
+}
+
+.container {
+    /* border: 3px red solid; */
+    margin: 75px auto;
+    padding: 10px;
+    width: 1200px;
+    height: 570px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.slider {
+    border: 10px solid hsla(0.00, 0.00%, 87.84%, 0.85);
+    border-radius: 15px;
+    width: 750px;
+    height: 450px;
+    margin: 50px auto;
+    padding: 0;
+    outline: 12px solid hsla(0.00, 0.00%, 93.33%, 0.3);
+}
+
+.image {
+    margin: 0;
+    border-radius: 8px;
+    width: 750px;
+    height: 450px;
+    transition: 0.2s;
+}
+
+#previous {
+    height: 450px;
+    /* border: 2px solid white; */
+    border: none;
+    border-radius: 5px;
+    float: left;
+    position: absolute;
+    top: 145px;
+    left: 425px;
+    background: none;
+    width: 40px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#next {
+    height: 450px;
+    /* border: 2px solid white; */
+    border: none;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    top: 145px;
+    right: 425px;
+    background: none;
+    width: 40px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.fas {
+    color: hsla(0.00, 0.00%, 87.84%, 0.68);
+    margin: 0;
+    font-size: 24px;
+}
+
+#next:hover,
+#previous:hover {
+    background-color: hsla(0.00, 0.00%, 93.33%, 0.3);
+    color: hsla(0.00, 0.00%, 87.84%, 0.8);
+}
